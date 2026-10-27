@@ -83,7 +83,7 @@ def main():
     for t in data.get("tracks", []):
         links = t.setdefault("links", {})
         need_apple = not t.get("preview") or not links.get("apple")
-        need_other = not links.get("spotify") or not links.get("youtube")
+        need_other = False  # song.link now requires a paid API key; Spotify/YouTube buttons use search
         if not (need_apple or need_other):
             continue
         print(f"- {t['title']} — {t['artist']}")

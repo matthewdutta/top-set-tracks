@@ -32,3 +32,12 @@ Moods: `Good Vibes`, `Lock-In Mode`, `Aggressive`, `Warm-Up Builder`.
   }
 }
 ```
+
+## Writing style
+- Taglines: short, plain and direct. Not corny, no puns. Example: "Good vibes to keep the lift fun."
+- Descriptions: one or two plain sentences on what the song sounds like and when to play it in a session.
+
+## Links
+The "Fill in song links" GitHub Action adds the exact Apple Music link and 30-second preview
+for each new track. Spotify and YouTube buttons open a search for the song unless an exact
+link is added to `links.spotify` / `links.youtube` by hand.
