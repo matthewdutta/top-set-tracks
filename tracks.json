@@ -1,3 +1,76 @@
 {
-  "tracks": []
+  "tracks": [
+    {
+      "id": "t001",
+      "date": "2026-10-21",
+      "title": "Blood on the Leaves",
+      "artist": "Kanye West",
+      "year": 2013,
+      "genre": "Hip-hop",
+      "mood": "Warm-Up Builder",
+      "tagline": "Slow burn. Then the horns hit.",
+      "description": "It opens on a pitched-up Nina Simone sample and takes its time, which is exactly the pace of your first few warm-up sets. Then the brass drops and everything gets heavy. Time your first working set to that moment.",
+      "links": {}
+    },
+    {
+      "id": "t002",
+      "date": "2026-10-22",
+      "title": "Live Forever",
+      "artist": "Oasis",
+      "year": 1994,
+      "genre": "Britpop",
+      "mood": "Good Vibes",
+      "tagline": "Big chorus. Good day in the gym.",
+      "description": "Not every session needs rage. This is for the days when the bar feels light and you're just glad to be there. A mid-tempo anthem that makes accessory work feel like a victory lap.",
+      "links": {}
+    },
+    {
+      "id": "t003",
+      "date": "2026-10-23",
+      "title": "Itch",
+      "artist": "Nothing But Thieves",
+      "year": 2015,
+      "genre": "Alternative rock",
+      "mood": "Lock-In Mode",
+      "tagline": "Restless energy, pointed at the bar.",
+      "description": "A tense, grinding riff and a vocal that keeps climbing make this feel like pressure building under the surface. Put it on when you need to stop chatting between sets and focus on the next one.",
+      "links": {}
+    },
+    {
+      "id": "t004",
+      "date": "2026-10-24",
+      "title": "The Chain",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "genre": "Rock",
+      "mood": "Lock-In Mode",
+      "tagline": "Wait for the bassline. Then pull.",
+      "description": "Moody and steady for three minutes, then one of the most famous basslines in rock kicks off the final build. Brace on the bass, start the rep when the guitar comes back in.",
+      "links": {}
+    },
+    {
+      "id": "t005",
+      "date": "2026-10-25",
+      "title": "Talk",
+      "artist": "Coldplay",
+      "year": 2005,
+      "genre": "Alternative rock",
+      "mood": "Warm-Up Builder",
+      "tagline": "Steady pulse for steady reps.",
+      "description": "Built on a riff borrowed from Kraftwerk's \"Computer Love,\" it has a driving, even pulse that suits the empty bar and the first few plates. Clean reps, good positions, nothing rushed.",
+      "links": {}
+    },
+    {
+      "id": "t006",
+      "date": "2026-10-26",
+      "title": "I Wonder",
+      "artist": "Kanye West",
+      "year": 2007,
+      "genre": "Hip-hop",
+      "mood": "Warm-Up Builder",
+      "tagline": "Start soft. Finish loud.",
+      "description": "The Labi Siffre sample opens quietly, then the drums come in huge and never let go. It builds the way a good warm-up should: easy at first, then suddenly you're ready for real weight.",
+      "links": {}
+    }
+  ]
 }

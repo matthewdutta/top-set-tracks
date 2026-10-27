@@ -229,7 +229,6 @@ const LOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAACgCAMAAAA7IH4Z
 const MOODS = {
   "Good Vibes":      {plate:"green",  kg:"10"},
   "Lock-In Mode":    {plate:"yellow", kg:"15"},
-  "Aggressive":      {plate:"red",    kg:"25"},
   "Warm-Up Builder": {plate:"white",  kg:"5"}
 };
 const HEX = {red:"#d6282f",blue:"#2463d6",yellow:"#f2c230",green:"#1f9a56",white:"#e8e5dc",black:"#26282c"};
@@ -417,7 +416,8 @@ function render(){
       '<p class="tagline">'+esc(t.tagline)+'</p>'+
       '<p class="why"><b>Why today:</b> '+esc(t.description)+'</p>'+
       '<div class="listen">'+listenButtons(t,true)+'</div>'+
-      (next?'<div class="next"><span class="mono">Next track drops in</span><span class="clock" id="clock" data-at="'+esc(next.date)+'">--:--:--</span></div>':'')+
+      (next?'<div class="next"><span class="mono">Next track drops in</span><span class="clock" id="clock" data-at="'+esc(next.date)+'">--:--:--</span></div>'
+           :'<div class="next"><span class="mono">'+(t.date===S.today?'Check back tomorrow for the next Top Set Track':'A new Top Set Track drops soon. Check back tomorrow')+'</span></div>')+
       '</div></div></div></section>';
   }
 
