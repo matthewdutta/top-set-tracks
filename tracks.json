@@ -16,7 +16,11 @@
       "mood": "Warm-Up Builder",
       "tagline": "Slow burn. Then the horns hit.",
       "description": "It opens on a pitched-up Nina Simone sample and takes its time, which is exactly the pace of your first few warm-up sets. Then the brass drops and everything gets heavy. Time your first working set to that moment.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/blood-on-the-leaves-originally-performed-by-kanye/1043766162?i=1043766332"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/92/58/1e9258b7-158e-2d85-9e17-86c84071c7a1/mzaf_72006035307364931.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/a4/bc/c1/a4bcc1f2-67b1-5820-c8bc-d9f186b48aa0/Party_Blast_SoulMix.jpg/600x600bb.jpg"
     },
     {
       "id": "t002",
@@ -28,7 +32,11 @@
       "mood": "Good Vibes",
       "tagline": "Big chorus. Good day in the gym.",
       "description": "Not every session needs rage. This is for the days when the bar feels light and you're just glad to be there. A mid-tempo anthem that makes accessory work feel like a victory lap.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/live-forever/1517506402?i=1517506707"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/f1/ac/16f1ac05-b12f-fd37-d862-ae5cd9772187/mzaf_16674267505849232959.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/e7/ea/9fe7eac2-87dc-c1df-3333-dc30b82bdd74/5051961006100.jpg/600x600bb.jpg"
     },
     {
       "id": "t003",
@@ -40,7 +48,11 @@
       "mood": "Lock-In Mode",
       "tagline": "Restless energy, pointed at the bar.",
       "description": "A tense, grinding riff and a vocal that keeps climbing make this feel like pressure building under the surface. Put it on when you need to stop chatting between sets and focus on the next one.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/itch/1016210775?i=1016210780"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/a4/00/b1a400a4-43b0-37be-4ef4-5e3dd41aec7c/mzaf_10823033666826378560.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e3/fd/ec/e3fdecc8-2dd2-0cea-1c8e-8dce7212c0f0/dj.dthoguko.jpg/600x600bb.jpg"
     },
     {
       "id": "t004",
@@ -52,7 +64,11 @@
       "mood": "Lock-In Mode",
       "tagline": "Wait for the bassline. Then pull.",
       "description": "Moody and steady for three minutes, then one of the most famous basslines in rock kicks off the final build. Brace on the bass, start the rep when the guitar comes back in.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/the-chain/594061854?i=594061861"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/f8/31/9ef83126-c5cf-f526-c26d-0c25895e4d9b/mzaf_9883179573566934970.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/13/ba/4d13bac3-d3d5-7581-2c74-034219eadf2b/081227970949.jpg/600x600bb.jpg"
     },
     {
       "id": "t005",
@@ -64,7 +80,11 @@
       "mood": "Warm-Up Builder",
       "tagline": "Steady pulse for steady reps.",
       "description": "Built on a riff borrowed from Kraftwerk's \"Computer Love,\" it has a driving, even pulse that suits the empty bar and the first few plates. Clean reps, good positions, nothing rushed.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/talk/1123076757?i=1123076827"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/88/d6/5a88d688-22ad-2748-e975-d7de1e150702/mzaf_16172042005101510311.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/82/48/0c8248a8-4a5b-d30d-8056-f32d650d2fc9/190295978068.jpg/600x600bb.jpg"
     },
     {
       "id": "t006",
@@ -76,7 +96,11 @@
       "mood": "Warm-Up Builder",
       "tagline": "Start soft. Finish loud.",
       "description": "The Labi Siffre sample opens quietly, then the drums come in huge and never let go. It builds the way a good warm-up should: easy at first, then suddenly you're ready for real weight.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/i-wonder/1442845779?i=1442846336"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/0a/94/b70a94d2-386b-851b-af33-73161b051586/mzaf_3514470759908534229.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/600x600bb.jpg"
     }
   ]
 }
