@@ -1,4 +1,10 @@
 {
+  "name": "Top Set Tracks",
+  "moods": [
+    "Good Vibes",
+    "Lock-In Mode",
+    "Warm-Up Builder"
+  ],
   "tracks": [
     {
       "id": "t001",
