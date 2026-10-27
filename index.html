@@ -155,9 +155,13 @@ section.archive{padding-block:56px}
 .card:hover{border-color:var(--chalk-3)}
 .card .art{display:flex;justify-content:center;align-items:center;background:var(--ink-2);padding:8%;cursor:pointer}
 .card .art svg{display:block;width:100%;height:auto;max-width:100%;margin:0 auto}
-.card .body{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;padding:12px 12px 14px;flex:1}
+.card .body{display:flex;flex-direction:column;padding:12px 12px 14px;flex:1;min-width:0}
 .card .info{display:flex;flex-direction:column;gap:3px;min-width:0;text-align:left;background:none;border:0;padding:0;color:inherit;font:inherit;cursor:pointer}
-.card .play{--ps:42px;margin:0 4px 4px 0}
+.card .art{position:relative}
+.card .play{--ps:36px;position:absolute;right:8px;bottom:8px;box-shadow:0 2px 10px rgba(0,0,0,.45)}
+.card .play:hover{transform:scale(1.08)}
+.card .playing .play,.card.playing .play{box-shadow:0 0 0 5px color-mix(in srgb,var(--plate) 30%,transparent)}
+.card .tag{white-space:normal;max-width:100%;letter-spacing:.05em;padding:5px 8px}
 .card .play[hidden]{display:none}
 .dlg .player{margin-top:0;max-width:none}
 
@@ -317,10 +321,10 @@ function player(t){
 
 function card(t, S){
   return '<article class="card" data-vinyl="'+esc(t.id)+'" style="--plate:'+plateHex(t)+'">'+
-    '<div class="art" data-open="'+esc(t.id)+'">'+disc(t,"c"+t.id,{no:S.number(t)})+'</div>'+
+    '<div class="art" data-open="'+esc(t.id)+'">'+disc(t,"c"+t.id,{no:S.number(t)})+playBtn(t)+'</div>'+
     '<div class="body"><button class="info" data-open="'+esc(t.id)+'"><span class="mono d">'+fmtShort(t.date)+' · No. '+pad(S.number(t))+'</span>'+
     '<h3>'+esc(t.title)+'</h3><span class="a">'+esc(t.artist)+'</span>'+
-    '<span class="tag mood">'+esc(t.mood)+'</span></button>'+playBtn(t)+'</div></article>';
+    '<span class="tag mood">'+esc(t.mood)+'</span></button></div></article>';
 }
 
 /* 30-second previews: looked up live from Apple's public search in the visitor's browser */
