@@ -1,0 +1,24 @@
+- Blood on the Leaves — Kanye West
+  itunes: 25 results, 21 by Kanye West
+  apple: no confident match, left blank
+- Live Forever — Oasis
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+- Itch — Nothing But Thieves
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+- The Chain — Fleetwood Mac
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+- Talk — Coldplay
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+- I Wonder — Kanye West
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+- Boston — Stella Lefty
+  itunes: 25 results, 17 by Stella Lefty
+  apple: https://music.apple.com/ca/album/boston/1884403092?i=1884403093
+  request failed: https://api.song.link/v1-alpha.1/links?url=https%3A%2F%2Fmusic.apple.com%2Fca%2F... (HTTP Error 401: Unauthorized); retry 1/1
+  song.link: no response
+tracks.json updated
