@@ -62,7 +62,7 @@ def itunes(track):
 
 def songlink(apple_url):
     q = urllib.parse.urlencode({"url": apple_url, "userCountry": "CA"})
-    data = get_json("https://api.song.link/v1-alpha.1/links?" + q)
+    data = get_json("https://api.song.link/v1-alpha.1/links?" + q, tries=1)
     if data is None:
         print("  song.link: no response")
         data = {}

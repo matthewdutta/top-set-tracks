@@ -97,6 +97,18 @@
       },
       "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/0a/94/b70a94d2-386b-851b-af33-73161b051586/mzaf_3514470759908534229.plus.aac.p.m4a",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/25/2d/39252d65-2d50-b991-0962-f7a98a761271/00602517483507.rgb.jpg/600x600bb.jpg"
+    },
+    {
+      "id": "t007",
+      "date": "2026-10-27",
+      "title": "Boston",
+      "artist": "Stella Lefty",
+      "year": 2026,
+      "genre": "Country pop",
+      "mood": "Good Vibes",
+      "tagline": "New crush energy. Bring it to the bar.",
+      "description": "A mid-tempo singalong about suddenly falling for someone, with a chorus that sticks for days. It's the kind of song that makes a regular session feel like a good day. Save it for accessories, or the walk in from the car.",
+      "links": {}
     }
   ]
 }
