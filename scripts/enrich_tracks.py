@@ -18,7 +18,7 @@ def get_json(url, tries=3):
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
                 return json.loads(r.read().decode("utf-8"))
         except Exception as e:  # noqa: BLE001
-            print(f"  request failed ({e}); retry {i + 1}/{tries}", file=sys.stderr)
+            print(f"  request failed: {url[:80]}... ({e}); retry {i + 1}/{tries}")
             time.sleep(6 * (i + 1))
     return None
 
@@ -38,7 +38,12 @@ def itunes(track):
                                 "entity": "song", "limit": 25, "country": "CA"})
     data = get_json("https://itunes.apple.com/search?" + q) or {}
     want, who = norm(track["title"]), norm(lead)
-    results = [r for r in data.get("results", []) if r.get("previewUrl")]
+    bad = re.compile(r"originally performed|made famous|in the style of|tribute|karaoke|cover|instrumental|lullaby|piano version|8.?bit", re.I)
+    results = [r for r in data.get("results", [])
+               if r.get("previewUrl")
+               and not bad.search(f"{r.get('trackName','')} {r.get('collectionName','')} {r.get('artistName','')}")
+               and (norm(r.get("artistName")) == who or norm(r.get("artistName")).startswith(who + " ") or norm(r.get("artistName")).startswith(who))]
+    print(f"  itunes: {len(data.get('results', []))} results, {len(results)} by {lead}")
     def score(r):
         t, a = norm(r.get("trackName")), norm(r.get("artistName"))
         s = 0
@@ -57,7 +62,12 @@ def itunes(track):
 
 def songlink(apple_url):
     q = urllib.parse.urlencode({"url": apple_url, "userCountry": "CA"})
-    data = get_json("https://api.song.link/v1-alpha.1/links?" + q) or {}
+    data = get_json("https://api.song.link/v1-alpha.1/links?" + q)
+    if data is None:
+        print("  song.link: no response")
+        data = {}
+    elif "linksByPlatform" not in data:
+        print(f"  song.link: unexpected reply {str(data)[:200]}")
     p = data.get("linksByPlatform", {})
     return {
         "spotify": (p.get("spotify") or {}).get("url"),
