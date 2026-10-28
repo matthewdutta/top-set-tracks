@@ -132,7 +132,11 @@
       "mood": "Warm-Up Builder",
       "tagline": "Ease in and get the blood moving.",
       "description": "Drake and Future back together on a track from Iceman. A steady one to play through your warm-up sets while the weight climbs.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/ran-to-atlanta/6769649287?i=6769649577"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/ce/c2/1ecec239-a7f5-1cbe-e0b0-5d7ca2089779/mzaf_15720556376409377175.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7f/39/61/7f396123-be56-bc11-eaab-976441808e58/26UMGIM63622.rgb.jpg/600x600bb.jpg"
     }
   ]
 }
