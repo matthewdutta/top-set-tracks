@@ -6,7 +6,7 @@ matching Spotify and YouTube links. Only fills fields that are empty, so any lin
 added by hand is never overwritten. Runs in GitHub Actions on every change to
 tracks.json.
 """
-import json, re, sys, time, urllib.parse, urllib.request
+import json, re, sys, time, unicodedata, urllib.parse, urllib.request
 
 PATH = "tracks.json"
 UA = {"User-Agent": "TopSetTracks/1.0 (+https://top-set-tracks.pages.dev)"}
@@ -24,7 +24,8 @@ def get_json(url, tries=3):
 
 
 def norm(s):
-    s = re.sub(r"\(.*?\)|\[.*?\]", "", str(s or "").lower())
+    s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode()
+    s = re.sub(r"\(.*?\)|\[.*?\]", "", s.lower())
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
@@ -42,7 +43,7 @@ def itunes(track):
     results = [r for r in data.get("results", [])
                if r.get("previewUrl")
                and not bad.search(f"{r.get('trackName','')} {r.get('collectionName','')} {r.get('artistName','')}")
-               and (norm(r.get("artistName")) == who or norm(r.get("artistName")).startswith(who + " ") or norm(r.get("artistName")).startswith(who))]
+               and who in norm(r.get("artistName"))]
     print(f"  itunes: {len(data.get('results', []))} results, {len(results)} by {lead}")
     def score(r):
         t, a = norm(r.get("trackName")), norm(r.get("artistName"))
