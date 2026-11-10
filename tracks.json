@@ -164,7 +164,11 @@
       "mood": "Warm-Up Builder",
       "tagline": "Easy tempo to get the first sets moving.",
       "description": "The lead single from Hands All Over. A bouncy, upbeat track that keeps you moving between warm-up sets without burning you out before the heavy work.",
-      "links": {}
+      "links": {
+        "apple": "https://music.apple.com/ca/album/misery/1440840810?i=1440841355"
+      },
+      "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/ae/9b/d1ae9b79-71b4-6d1c-6717-0cb6be9436d3/mzaf_18238535905014752894.plus.aac.p.m4a",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/99/35/8b/99358b60-7f11-b4ae-363a-fa380dc46cff/15UMGIM43123.rgb.jpg/600x600bb.jpg"
     }
   ]
 }
